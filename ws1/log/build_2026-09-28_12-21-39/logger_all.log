@@ -1,0 +1,321 @@
+[0.842s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.843s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7553fe6b84a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7553fe7dce30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7553fe7dce30>>, mixin_verb=('build',))
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/etek/ROBO.400/ws1'
+[1.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.133s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.134s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.301s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.302s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ignore_ament_install'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_pkg']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_pkg'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['colcon_meta']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'colcon_meta'
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extensions ['ros']
+[1.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_pubsub) by extension 'ros'
+[1.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_pubsub' with type 'ros.ament_cmake' and name 'cpp_pubsub'
+[1.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ignore_ament_install'
+[1.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_pkg']
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_pkg'
+[1.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['colcon_meta']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'colcon_meta'
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extensions ['ros']
+[1.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_srvcli) by extension 'ros'
+[1.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_srvcli' with type 'ros.ament_cmake' and name 'cpp_srvcli'
+[1.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extension 'ignore'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extension 'ignore_ament_install'
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extensions ['colcon_pkg']
+[1.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extension 'colcon_pkg'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extensions ['colcon_meta']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extension 'colcon_meta'
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extensions ['ros']
+[1.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/example_sim) by extension 'ros'
+[1.339s] DEBUG:colcon.colcon_core.package_identification:Package 'src/example_sim' with type 'ros.ament_cmake' and name 'example_sim'
+[1.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extensions ['ignore', 'ignore_ament_install']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extension 'ignore'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extension 'ignore_ament_install'
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extensions ['colcon_pkg']
+[1.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extension 'colcon_pkg'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extensions ['colcon_meta']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extension 'colcon_meta'
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extensions ['ros']
+[1.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/to_goal) by extension 'ros'
+[1.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/to_goal' with type 'ros.ament_python' and name 'to_goal'
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.490s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/etek/ROBO.400/ws1/install
+[1.498s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/etek/turtlebot3_ws/install
+[1.509s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/jazzy
+[1.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[2.006s] Level 5:colcon.colcon_core.verb:set package 'cpp_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.006s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etek/ROBO.400/ws1/build/cpp_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etek/ROBO.400/ws1/install/cpp_pubsub', 'merge_install': False, 'path': '/home/etek/ROBO.400/ws1/src/cpp_pubsub', 'symlink_install': False, 'test_result_base': None}
+[2.008s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_args' from command line to 'None'
+[2.009s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target' from command line to 'None'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.010s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_cache' from command line to 'False'
+[2.011s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_clean_first' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'cmake_force_configure' from command line to 'False'
+[2.012s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'ament_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_cmake_args' from command line to 'None'
+[2.013s] Level 5:colcon.colcon_core.verb:set package 'cpp_srvcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.013s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_srvcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etek/ROBO.400/ws1/build/cpp_srvcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etek/ROBO.400/ws1/install/cpp_srvcli', 'merge_install': False, 'path': '/home/etek/ROBO.400/ws1/src/cpp_srvcli', 'symlink_install': False, 'test_result_base': None}
+[2.015s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_target' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_clean_first' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'cmake_force_configure' from command line to 'False'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'ament_cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[2.016s] Level 5:colcon.colcon_core.verb:set package 'example_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.017s] DEBUG:colcon.colcon_core.verb:Building package 'example_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etek/ROBO.400/ws1/build/example_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etek/ROBO.400/ws1/install/example_sim', 'merge_install': False, 'path': '/home/etek/ROBO.400/ws1/src/example_sim', 'symlink_install': False, 'test_result_base': None}
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_args' from command line to 'None'
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_target' from command line to 'None'
+[2.018s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_clean_first' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'cmake_force_configure' from command line to 'False'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'ament_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[2.019s] Level 5:colcon.colcon_core.verb:set package 'to_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.020s] DEBUG:colcon.colcon_core.verb:Building package 'to_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/etek/ROBO.400/ws1/build/to_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/etek/ROBO.400/ws1/install/to_goal', 'merge_install': False, 'path': '/home/etek/ROBO.400/ws1/src/to_goal', 'symlink_install': False, 'test_result_base': None}
+[2.021s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.026s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etek/ROBO.400/ws1/src/cpp_pubsub' with build type 'ament_cmake'
+[2.027s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etek/ROBO.400/ws1/src/cpp_pubsub'
+[2.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.051s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.051s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.082s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etek/ROBO.400/ws1/src/cpp_srvcli' with build type 'ament_cmake'
+[2.082s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etek/ROBO.400/ws1/src/cpp_srvcli'
+[2.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.110s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/etek/ROBO.400/ws1/src/example_sim' with build type 'ament_cmake'
+[2.111s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/etek/ROBO.400/ws1/src/example_sim'
+[2.113s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.114s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.137s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/etek/ROBO.400/ws1/src/to_goal' with build type 'ament_python'
+[2.138s] Level 1:colcon.colcon_core.shell:create_environment_hook('to_goal', 'ament_prefix_path')
+[2.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/ament_prefix_path.ps1'
+[2.141s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/ament_prefix_path.dsv'
+[2.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/ament_prefix_path.sh'
+[2.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.149s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[2.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[2.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[3.941s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/etek/ROBO.400/ws1/src/to_goal'
+[3.942s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.942s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.980s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[4.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim
+[4.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[4.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub
+[4.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[4.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli
+[4.091s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_sim)
+[4.125s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim
+[4.142s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim' for CMake module files
+[4.145s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim' for CMake config files
+[4.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_sim', 'cmake_prefix_path')
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.ps1'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.dsv'
+[4.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.sh'
+[4.157s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib'
+[4.160s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/bin'
+[4.161s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib/pkgconfig/example_sim.pc'
+[4.165s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib/python3.12/site-packages'
+[4.167s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/bin'
+[4.169s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.ps1'
+[4.173s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv'
+[4.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.sh'
+[4.180s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.bash'
+[4.185s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.zsh'
+[4.189s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/example_sim/share/colcon-core/packages/example_sim)
+[4.193s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_sim)
+[4.196s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim' for CMake module files
+[4.199s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim' for CMake config files
+[4.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_sim', 'cmake_prefix_path')
+[4.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.ps1'
+[4.203s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.dsv'
+[4.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/hook/cmake_prefix_path.sh'
+[4.208s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/bin'
+[4.209s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib/pkgconfig/example_sim.pc'
+[4.211s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/lib/python3.12/site-packages'
+[4.214s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/example_sim/bin'
+[4.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.ps1'
+[4.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv'
+[4.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.sh'
+[4.229s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.bash'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.zsh'
+[4.235s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/example_sim/share/colcon-core/packages/example_sim)
+[4.242s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[4.243s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub' for CMake module files
+[4.248s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub' for CMake config files
+[4.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub
+[4.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[4.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[4.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[4.259s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[4.263s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib'
+[4.266s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/bin'
+[4.267s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[4.270s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/python3.12/site-packages'
+[4.272s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/bin'
+[4.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[4.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[4.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[4.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[4.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[4.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[4.298s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pubsub)
+[4.299s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub' for CMake module files
+[4.302s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub' for CMake config files
+[4.303s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pubsub', 'cmake_prefix_path')
+[4.304s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.ps1'
+[4.306s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.dsv'
+[4.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/hook/cmake_prefix_path.sh'
+[4.311s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib'
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/bin'
+[4.312s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/pkgconfig/cpp_pubsub.pc'
+[4.314s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/python3.12/site-packages'
+[4.317s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_pubsub/bin'
+[4.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.ps1'
+[4.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.dsv'
+[4.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.sh'
+[4.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.bash'
+[4.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.zsh'
+[4.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/cpp_pubsub/share/colcon-core/packages/cpp_pubsub)
+[4.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[4.341s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli' for CMake module files
+[4.345s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli' for CMake config files
+[4.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli
+[4.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[4.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[4.357s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[4.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[4.362s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/bin'
+[4.363s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[4.364s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/python3.12/site-packages'
+[4.366s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/bin'
+[4.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[4.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[4.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[4.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[4.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[4.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[4.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_srvcli)
+[4.390s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli' for CMake module files
+[4.391s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli' for CMake config files
+[4.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_srvcli', 'cmake_prefix_path')
+[4.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.ps1'
+[4.398s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.dsv'
+[4.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/hook/cmake_prefix_path.sh'
+[4.405s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib'
+[4.406s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/bin'
+[4.407s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/pkgconfig/cpp_srvcli.pc'
+[4.408s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/python3.12/site-packages'
+[4.410s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/cpp_srvcli/bin'
+[4.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.ps1'
+[4.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.dsv'
+[4.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.sh'
+[4.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.bash'
+[4.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.zsh'
+[4.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/cpp_srvcli/share/colcon-core/packages/cpp_srvcli)
+[8.928s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: dist_info, update_catalog, symlink_data, build, install_data, register, bdist_rpm, easy_install, setopt, upload_docs, build_scripts, develop, bdist_egg, build_ext, upload, egg_info, compile_catalog, sdist, test, install, install_headers, bdist_wheel, bdist_dumb, clean, rotate, extract_messages, install_scripts, editable_wheel, build_clib, saveopts, bdist, check, init_catalog, alias, install_egg_info, build_py, install_lib
+[8.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/etek/ROBO.400/ws1/src/to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/etek/ROBO.400/ws1/build/to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/to_goal build --build-base /home/etek/ROBO.400/ws1/build/to_goal/build install --record /home/etek/ROBO.400/ws1/build/to_goal/install.log --install-scripts $base/lib/to_goal --single-version-externally-managed install_data
+[13.367s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal' for CMake module files
+[13.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/etek/ROBO.400/ws1/src/to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/etek/ROBO.400/ws1/build/to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/to_goal build --build-base /home/etek/ROBO.400/ws1/build/to_goal/build install --record /home/etek/ROBO.400/ws1/build/to_goal/install.log --install-scripts $base/lib/to_goal --single-version-externally-managed install_data
+[13.381s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal' for CMake config files
+[13.384s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal/lib'
+[13.385s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal/bin'
+[13.385s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal/lib/pkgconfig/to_goal.pc'
+[13.387s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages'
+[13.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('to_goal', 'pythonpath')
+[13.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/pythonpath.ps1'
+[13.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/pythonpath.dsv'
+[13.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/hook/pythonpath.sh'
+[13.395s] Level 1:colcon.colcon_core.environment:checking '/home/etek/ROBO.400/ws1/install/to_goal/bin'
+[13.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(to_goal)
+[13.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/package.ps1'
+[13.400s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/package.dsv'
+[13.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/package.sh'
+[13.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/package.bash'
+[13.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/etek/ROBO.400/ws1/install/to_goal/share/to_goal/package.zsh'
+[13.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/etek/ROBO.400/ws1/install/to_goal/share/colcon-core/packages/to_goal)
+[13.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.415s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.416s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.416s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.461s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.528s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.530s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etek/ROBO.400/ws1/install/local_setup.ps1'
+[13.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etek/ROBO.400/ws1/install/_local_setup_util_ps1.py'
+[13.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etek/ROBO.400/ws1/install/setup.ps1'
+[13.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etek/ROBO.400/ws1/install/local_setup.sh'
+[13.554s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/etek/ROBO.400/ws1/install/_local_setup_util_sh.py'
+[13.561s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etek/ROBO.400/ws1/install/setup.sh'
+[13.574s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etek/ROBO.400/ws1/install/local_setup.bash'
+[13.578s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etek/ROBO.400/ws1/install/setup.bash'
+[13.647s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/etek/ROBO.400/ws1/install/local_setup.zsh'
+[13.649s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/etek/ROBO.400/ws1/install/setup.zsh'

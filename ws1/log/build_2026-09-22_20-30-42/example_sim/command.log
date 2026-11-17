@@ -1,0 +1,2 @@
+Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8

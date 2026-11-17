@@ -1,0 +1,28 @@
+[0.029s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/etek/ROBO.400/ws1/src/example_sim -DCMAKE_INSTALL_PREFIX=/home/etek/ROBO.400/ws1/install/example_sim
+[0.054s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.663s] -- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.737s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.752s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.770s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.951s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.953s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.132s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.377s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.913s] -- Configuring done (1.9s)
+[1.963s] -- Generating done (0.0s)
+[1.971s] -- Build files have been written to: /home/etek/ROBO.400/ws1/build/example_sim
+[1.990s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/etek/ROBO.400/ws1/src/example_sim -DCMAKE_INSTALL_PREFIX=/home/etek/ROBO.400/ws1/install/example_sim
+[1.993s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[2.183s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[7.360s] [01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:[m[K In lambda function:
+[7.362s] [01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr = sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtrWithDeleter<std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kranges_size[m[K’
+[7.363s]    18 |         for (int i = 0; i < msg.[01;31m[Kranges_size[m[K(); i++)
+[7.367s]       |                                 [01;31m[K^~~~~~~~~~~[m[K
+[7.368s] [01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:20:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr = sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtrWithDeleter<std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kranges[m[K’
+[7.369s]    20 |           if (msg.[01;31m[Kranges[m[K(i) < 1.0)
+[7.370s]       |                   [01;31m[K^~~~~~[m[K
+[12.369s] gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o] Error 1
+[12.369s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_node.dir/all] Error 2
+[12.369s] gmake: *** [Makefile:146: all] Error 2
+[12.373s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8

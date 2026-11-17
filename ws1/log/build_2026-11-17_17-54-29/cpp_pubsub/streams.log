@@ -1,0 +1,30 @@
+[0.040s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[0.182s] [ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.182s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[8.655s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[8.884s] [ 75%] Built target talker
+[11.537s] [100%] [32m[1mLinking CXX executable listener[0m
+[11.830s] [100%] Built target listener
+[11.842s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[11.843s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub
+[11.853s] -- Install configuration: ""
+[11.854s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[11.856s] -- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[11.857s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[11.863s] -- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+[11.863s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[11.864s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[11.865s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[11.865s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[11.865s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[11.865s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[11.865s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[11.868s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub

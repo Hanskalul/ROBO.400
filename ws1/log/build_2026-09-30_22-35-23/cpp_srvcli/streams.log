@@ -1,0 +1,24 @@
+[0.138s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[0.538s] [100%] Built target server
+[0.538s] [100%] Built target client
+[1.883s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[1.941s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli
+[1.981s] -- Install configuration: ""
+[1.982s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/server
+[1.987s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/client
+[1.992s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[1.994s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[1.996s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[1.996s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[1.997s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[1.997s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[1.998s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[1.998s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[1.999s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[2.004s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[2.005s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[2.043s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[2.044s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[2.051s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[2.052s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[2.055s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli

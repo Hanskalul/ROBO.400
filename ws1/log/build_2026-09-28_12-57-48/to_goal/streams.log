@@ -1,0 +1,26 @@
+[6.956s] Invoking command in '/home/etek/ROBO.400/ws1/src/to_goal': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/etek/ROBO.400/ws1/build/to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/to_goal build --build-base /home/etek/ROBO.400/ws1/build/to_goal/build install --record /home/etek/ROBO.400/ws1/build/to_goal/install.log --install-scripts $base/lib/to_goal --single-version-externally-managed install_data
+[9.214s] running egg_info
+[9.398s] writing ../../build/to_goal/to_goal.egg-info/PKG-INFO
+[9.399s] writing dependency_links to ../../build/to_goal/to_goal.egg-info/dependency_links.txt
+[9.400s] writing entry points to ../../build/to_goal/to_goal.egg-info/entry_points.txt
+[9.402s] writing requirements to ../../build/to_goal/to_goal.egg-info/requires.txt
+[9.403s] writing top-level names to ../../build/to_goal/to_goal.egg-info/top_level.txt
+[9.806s] reading manifest file '../../build/to_goal/to_goal.egg-info/SOURCES.txt'
+[9.807s] adding license file 'LICENSE'
+[9.811s] writing manifest file '../../build/to_goal/to_goal.egg-info/SOURCES.txt'
+[9.813s] running build
+[9.817s] running build_py
+[9.817s] copying to_goal/draw_square.py -> /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal
+[9.818s] running install
+[9.855s] running install_lib
+[10.032s] copying /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal/draw_square.py -> /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal
+[10.036s] byte-compiling /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal/draw_square.py to draw_square.cpython-312.pyc
+[10.051s] running install_data
+[10.052s] running install_egg_info
+[10.257s] removing '/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal-0.0.0-py3.12.egg-info' (and everything under it)
+[10.258s] Copying ../../build/to_goal/to_goal.egg-info to /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal-0.0.0-py3.12.egg-info
+[10.264s] running install_scripts
+[11.402s] Installing draw_square script to /home/etek/ROBO.400/ws1/install/to_goal/lib/to_goal
+[11.404s] Installing to_goal script to /home/etek/ROBO.400/ws1/install/to_goal/lib/to_goal
+[11.407s] writing list of installed files to '/home/etek/ROBO.400/ws1/build/to_goal/install.log'
+[11.614s] Invoked command in '/home/etek/ROBO.400/ws1/src/to_goal' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/etek/ROBO.400/ws1/build/to_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/to_goal build --build-base /home/etek/ROBO.400/ws1/build/to_goal/build install --record /home/etek/ROBO.400/ws1/build/to_goal/install.log --install-scripts $base/lib/to_goal --single-version-externally-managed install_data

@@ -1,0 +1,30 @@
+[0.030s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[0.140s] [ 25%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[9.017s] [ 75%] [32m[1mLinking CXX executable server[0m
+[9.556s] [ 75%] Built target server
+[10.935s] [100%] [32m[1mLinking CXX executable client[0m
+[11.345s] [100%] Built target client
+[11.363s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_srvcli -- -j8 -l8
+[11.393s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli
+[11.420s] -- Install configuration: ""
+[11.421s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/server
+[11.423s] -- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[11.423s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/client
+[11.424s] -- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[11.425s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[11.425s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[11.425s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[11.426s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[11.426s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[11.426s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[11.426s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[11.427s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[11.427s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[11.427s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[11.428s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[11.428s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[11.428s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[11.428s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[11.429s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[11.431s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_srvcli' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_srvcli

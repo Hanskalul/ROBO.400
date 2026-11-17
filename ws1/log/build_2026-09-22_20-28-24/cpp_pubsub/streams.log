@@ -1,0 +1,7 @@
+[0.032s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[0.145s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_lambda_function.cpp.o[0m
+[0.146s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_lambda_function.cpp.o[0m
+[11.850s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[12.241s] [ 75%] Built target talker
+[15.162s] [100%] [32m[1mLinking CXX executable listener[0m
+[15.535s] [100%] Built target listener

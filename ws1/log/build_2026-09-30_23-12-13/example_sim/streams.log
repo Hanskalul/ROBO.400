@@ -1,0 +1,22 @@
+[0.213s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[0.563s] [100%] Built target lidar_node
+[2.427s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[2.500s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim
+[2.561s] -- Install configuration: ""
+[2.563s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/lib/example_sim/lidar_node
+[2.563s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/package_run_dependencies/example_sim
+[2.564s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/parent_prefix_path/example_sim
+[2.564s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.sh
+[2.565s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.dsv
+[2.568s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.sh
+[2.579s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.dsv
+[2.582s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.bash
+[2.587s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.sh
+[2.597s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.zsh
+[2.601s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.dsv
+[2.603s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv
+[2.606s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/packages/example_sim
+[2.607s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig.cmake
+[2.608s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig-version.cmake
+[2.610s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.xml
+[2.649s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim

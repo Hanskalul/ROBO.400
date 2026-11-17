@@ -1,0 +1,24 @@
+[0.192s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[0.537s] [ 50%] Built target talker
+[0.675s] [100%] Built target listener
+[2.275s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/cpp_pubsub -- -j8 -l8
+[2.336s] Invoking command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub
+[2.387s] -- Install configuration: ""
+[2.391s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/talker
+[2.400s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/listener
+[2.404s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[2.408s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[2.409s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[2.413s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[2.415s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[2.418s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[2.426s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[2.431s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[2.432s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[2.433s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[2.435s] -- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[2.437s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[2.438s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[2.442s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[2.443s] -- Up-to-date: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[2.466s] Invoked command in '/home/etek/ROBO.400/ws1/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/etek/ROBO.400/ws1/install/to_goal:/home/etek/turtlebot3_ws/install/turtlebot3_teleop:/home/etek/turtlebot3_ws/install/turtlebot3_example:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/cpp_pubsub

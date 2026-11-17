@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/to_goal/to_goal.egg-info
+writing ../../build/to_goal/to_goal.egg-info/PKG-INFO
+writing dependency_links to ../../build/to_goal/to_goal.egg-info/dependency_links.txt
+writing entry points to ../../build/to_goal/to_goal.egg-info/entry_points.txt
+writing requirements to ../../build/to_goal/to_goal.egg-info/requires.txt
+writing top-level names to ../../build/to_goal/to_goal.egg-info/top_level.txt
+writing manifest file '../../build/to_goal/to_goal.egg-info/SOURCES.txt'
+reading manifest file '../../build/to_goal/to_goal.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/to_goal/to_goal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/etek/ROBO.400/ws1/build/to_goal/build
+creating /home/etek/ROBO.400/ws1/build/to_goal/build/lib
+creating /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal
+copying to_goal/to_goal.py -> /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal
+copying to_goal/__init__.py -> /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal
+running install
+running install_lib
+creating /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal
+copying /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal/to_goal.py -> /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal
+copying /home/etek/ROBO.400/ws1/build/to_goal/build/lib/to_goal/__init__.py -> /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal
+byte-compiling /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal/to_goal.py to to_goal.cpython-312.pyc
+byte-compiling /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/etek/ROBO.400/ws1/install/to_goal/share/ament_index
+creating /home/etek/ROBO.400/ws1/install/to_goal/share/ament_index/resource_index
+creating /home/etek/ROBO.400/ws1/install/to_goal/share/ament_index/resource_index/packages
+copying resource/to_goal -> /home/etek/ROBO.400/ws1/install/to_goal/share/ament_index/resource_index/packages
+copying package.xml -> /home/etek/ROBO.400/ws1/install/to_goal/share/to_goal
+running install_egg_info
+Copying ../../build/to_goal/to_goal.egg-info to /home/etek/ROBO.400/ws1/install/to_goal/lib/python3.12/site-packages/to_goal-0.0.0-py3.12.egg-info
+running install_scripts
+Installing to_goal script to /home/etek/ROBO.400/ws1/install/to_goal/lib/to_goal
+writing list of installed files to '/home/etek/ROBO.400/ws1/build/to_goal/install.log'

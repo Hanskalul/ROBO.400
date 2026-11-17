@@ -1,0 +1,31 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Configuring done (1.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/etek/ROBO.400/ws1/build/example_sim
+[100%] Built target lidar_node
+-- Install configuration: ""
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/lib/example_sim/lidar_node
+-- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/package_run_dependencies/example_sim
+-- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/parent_prefix_path/example_sim
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.sh
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.sh
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.dsv
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.bash
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.sh
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.zsh
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.dsv
+-- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/packages/example_sim
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig.cmake
+-- Up-to-date: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig-version.cmake
+-- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.xml

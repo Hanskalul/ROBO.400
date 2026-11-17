@@ -1,0 +1,4 @@
+[console_scripts]
+draw_square = to_goal.draw_square:main
+to_goal = to_goal.to_goal:main
+to_goal_angled = to_goal.to_goal_angled:main

@@ -1,0 +1,24 @@
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.22 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Configuring done (1.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/etek/ROBO.400/ws1/build/example_sim
+[ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:[m[K In lambda function:
+[01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:18:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr = sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtrWithDeleter<std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kranges_size[m[K’
+   18 |         for (int i = 0; i < msg.[01;31m[Kranges_size[m[K(); i++)
+      |                                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:20:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr = sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtrWithDeleter<std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’ {aka ‘[01m[Kclass std::unique_ptr<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::LaserScan_<std::allocator<void> > > >[m[K’} has no member named ‘[01m[Kranges[m[K’
+   20 |           if (msg.[01;31m[Kranges[m[K(i) < 1.0)
+      |                   [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lidar_node.dir/build.make:76: CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/lidar_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

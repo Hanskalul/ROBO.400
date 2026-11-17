@@ -1,0 +1,22 @@
+[ 50%] Built target talker
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/talker
+-- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/listener
+-- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+-- Installing: /home/etek/ROBO.400/ws1/install/cpp_pubsub/share/cpp_pubsub/package.xml

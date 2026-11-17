@@ -1,0 +1,29 @@
+[0.036s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[0.203s] [ 50%] [32mBuilding CXX object CMakeFiles/lidar_node.dir/src/lidar_node.cpp.o[0m
+[4.541s] [01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:[m[K In lambda function:
+[4.541s] [01m[K/home/etek/ROBO.400/ws1/src/example_sim/src/lidar_node.cpp:17:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[4.541s]    17 |         for (int i = 0; [01;35m[Ki < sizeof(msg->ranges)[m[K; i++)
+[4.541s]       |                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[14.806s] [100%] [32m[1mLinking CXX executable lidar_node[0m
+[15.616s] [100%] Built target lidar_node
+[15.636s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/etek/ROBO.400/ws1/build/example_sim -- -j8 -l8
+[15.639s] Invoking command in '/home/etek/ROBO.400/ws1/build/example_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim
+[15.654s] -- Install configuration: ""
+[15.654s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/lib/example_sim/lidar_node
+[15.663s] -- Set non-toolchain portion of runtime path of "/home/etek/ROBO.400/ws1/install/example_sim/lib/example_sim/lidar_node" to ""
+[15.664s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/package_run_dependencies/example_sim
+[15.664s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/parent_prefix_path/example_sim
+[15.665s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.sh
+[15.665s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.dsv
+[15.665s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.sh
+[15.665s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.dsv
+[15.666s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.bash
+[15.666s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.sh
+[15.666s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.zsh
+[15.666s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.dsv
+[15.666s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv
+[15.667s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/packages/example_sim
+[15.667s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig.cmake
+[15.667s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig-version.cmake
+[15.668s] -- Installing: /home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.xml
+[15.671s] Invoked command in '/home/etek/ROBO.400/ws1/build/example_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/etek/ROBO.400/ws1/build/example_sim

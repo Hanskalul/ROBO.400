@@ -1,0 +1,16 @@
+/home/etek/ROBO.400/ws1/install/example_sim/lib/example_sim/lidar_node
+/home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/package_run_dependencies/example_sim
+/home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/parent_prefix_path/example_sim
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.sh
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/ament_prefix_path.dsv
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.sh
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/environment/path.dsv
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.bash
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.sh
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.zsh
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/local_setup.dsv
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.dsv
+/home/etek/ROBO.400/ws1/install/example_sim/share/ament_index/resource_index/packages/example_sim
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig.cmake
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/cmake/example_simConfig-version.cmake
+/home/etek/ROBO.400/ws1/install/example_sim/share/example_sim/package.xml
